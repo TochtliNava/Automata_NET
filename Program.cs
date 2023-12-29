@@ -2,8 +2,12 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Automata automata = new Automata(4);
+            int alphabetSize = automata.AlphabetSize;
+            int statesSize = automata.StatesSize;
+            automata.AddAlphabet(5);
         }
     }
 }
